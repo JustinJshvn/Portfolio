@@ -111,7 +111,7 @@ h1 {
 
 .herochar {
     display: inline-flex;
-    margin: 3rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -128,4 +128,156 @@ h1 {
 .herochar > div > p {
     font-size: 16pt;
     color: #7680C2;
+}
+
+.subtitle {
+    font-size: 16pt;
+    color: #3B4896;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+
+.title {
+    font-size: 56pt;
+    color: #B0B6C1;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.aboutcontain1 {
+    display: inline-flex;
+    padding: 2rem auto;
+    margin: 4rem auto 0 auto;
+}
+
+.aboutcontain1 > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 5rem 0 0;
+}
+
+.aboutcontain1 > div > p {
+    color: #48586C;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.aboutcontain1 > div > p > span {
+    color: #4B4793;
+}
+
+.aboutcontain1 > img {
+    margin: 0 5rem 0 5rem;
+    max-width: 600px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.overview {
+    display: inline-flex;
+    padding: 2rem 5rem;
+    margin: 4rem auto 0 auto;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.overview > div {
+    background-color: #151F33;
+    border-radius: 10px;
+    border: 1px solid #222F45;
+    padding: 2rem;
+    flex: 1;
+}
+
+.overviewtitle {
+    font-size: 16pt;
+    color: #7D848B;
+    margin-top: 1rem;
+}
+
+.overviewsubtitle {
+    font-size: 12pt;
+    color: #4A5A6F;
+    margin-top: 1rem;
+}
+
+.description {
+    font-size: 15pt;
+    color: #49586C;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.projects {
+    display: inline-flex;
+    padding: 2rem 5rem;
+    margin: 4rem auto 0 auto;
+    width: 100%;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.projects > div {
+    background-color: #141E32;
+    border-radius: 10px;
+    border: 1px solid #202C42;
+    padding: 2rem;
+}
+
+.protitle {
+    font-size: 16pt;
+    color: #80858D;
+    margin-top: 1.5rem;
+}
+
+.prodesc {
+    font-size: 13pt;
+    color: #4C5D71;
+    margin-top: 2rem;
+}
+
+.proskill {
+    margin-top: 4rem;
+    display: inline-flex;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.proskill > div {
+    background-color: #304057;
+    border-radius: 5px;
+    border: 1px solid #222E44;
+    padding: 0.25rem 0.75rem;
+}
+
+.proskill > div > p {
+    font-size: 12pt;
+    color: #717F93;
+}
+
+.viewdetail {
+    margin-top: 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.viewdetail > a {
+    text-decoration: none;
+    color: #4350A2;
+    font-size: 12pt;
+}
+
+.viewdetail > a:hover {
+    color: #253080ff;
+    transition: color 0.3s ease;
+}
+
+.viewdetail > img {
+    width: 10px;
+    height: auto;
 }
