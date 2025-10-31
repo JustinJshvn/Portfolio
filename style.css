@@ -475,7 +475,7 @@ h1 {
     transition: background-image 0.3s ease;
 }
 
-.sendmessage > p {
+.sendmessage > span {
     color: #B99FFC;
     font-size: 10pt;
 }
