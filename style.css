@@ -753,3 +753,27 @@ header nav a {
     width: auto !important;
   }
 }
+
+html, body { overflow-x: hidden; }
+
+.breakline {
+  width: 92%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+@supports (padding: max(1px)) {
+  body {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+  header {
+    padding-left: max(16px, env(safe-area-inset-left) + 16px);
+    padding-right: max(16px, env(safe-area-inset-right) + 16px);
+  }
+}
+
+@media (max-width: 420px) {
+  header nav ul { gap: 0.75rem; }
+  header nav ul li a { font-size: 0.85rem; }
+}
