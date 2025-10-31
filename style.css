@@ -470,12 +470,70 @@ h1 {
     cursor: pointer;
 }
 
-.sendmessage::active {
-    opacity: 0.8;
+.sendmessage:active {
+    opacity: 0.6;
     transition: background-image 0.3s ease;
 }
 
 .sendmessage > p {
     color: #B99FFC;
     font-size: 10pt;
+}
+
+.breakline {
+    background-color: #111A2E;
+    height: 3px;
+    width: 95vw;
+    margin: 0 auto;
+}
+
+.footer {
+    display: inline-flex;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0 10rem;
+    justify-content: center;
+    width: 100%;
+    gap: 20rem;
+}
+
+.name {
+    font-size: 16pt;
+    color: #3E4482;
+}
+
+.footdesc {
+    font-size: 12pt;
+    color: #47576C;
+    margin-top: 1rem;
+    max-width: 25vw;
+}
+
+.footitle {
+    font-size: 13pt;
+    color: #7C8389;
+    margin-bottom: 1rem;
+}
+
+.footlist {
+    list-style-type: none;
+}
+
+.footlist > li > a {
+    text-decoration: none;
+    color: #47586D;
+    font-size: 12pt;
+}
+
+.footlist > li > a:hover {
+    color: #2c3949ff;
+    transition: color 0.3s ease;
+}
+
+.end {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: 12pt;
+    color: #48576C;
 }
