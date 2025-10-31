@@ -9,6 +9,7 @@
 html {
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
     background-color: #0F172C;
 }
 
@@ -75,4 +76,56 @@ h1 {
     font-weight: 400;
     text-align: center;
     margin-top: 1rem;
+}
+
+.herodesc {
+    font-size: 30pt;
+    color: #7E8DA5;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.herodesc > span {
+    color: #7C73DC;
+}
+
+.herolist {
+    font-size: 17pt;
+    font-weight: 400;
+    color: #728199;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.arrowdown {
+    color: #697790;
+    width: 40px;
+    height: 40px;
+}
+
+.iconwrapper {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.herochar {
+    display: inline-flex;
+    margin: 3rem auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.herochar > div {
+    background-color: #1B1644;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    border-radius: 35px;
+    border: 1px solid #1E1B4E;
+}
+
+.herochar > div > p {
+    font-size: 16pt;
+    color: #7680C2;
 }
