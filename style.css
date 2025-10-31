@@ -179,7 +179,7 @@ h1 {
 .overview {
     display: inline-flex;
     padding: 2rem 5rem;
-    margin: 4rem auto 0 auto;
+    margin: 4rem auto 5rem auto;
     width: 100%;
     gap: 2rem;
     justify-content: center;
@@ -215,7 +215,7 @@ h1 {
 .projects {
     display: inline-flex;
     padding: 2rem 5rem;
-    margin: 4rem auto 0 auto;
+    margin: 4rem auto 15rem auto;
     width: 100%;
     gap: 2rem;
     justify-content: center;
@@ -280,4 +280,202 @@ h1 {
 .viewdetail > img {
     width: 10px;
     height: auto;
+}
+
+.skills {
+    display: inline-flex;
+    gap: 2rem;
+    width: 100%;
+    margin: 4rem auto 0 auto;
+    padding: 0 5rem;
+}
+
+.skills > div {
+    background-color: #141E32;
+    border-radius: 10px;
+    border: 1px solid #212E44;
+    padding: 2rem;
+    width: 100%;
+}
+
+.skills > div > p {
+    margin-top: 1.5rem;
+    font-size: 14pt;
+    color: #707882;
+}
+
+.skills > div > ul {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.skills > div > ul > li {
+    font-size: 12;
+    color: #646F82;
+    margin: 1rem 0;
+}
+
+.programming li::marker {
+  color: #00A1F0;
+  font-size: 1.2em;
+  content: "• ";
+}
+
+.design li::marker {
+  color: #9B4CFA;
+  font-size: 1.2em;
+  content: "• ";
+}
+
+.system li::marker {
+  color: #4472F9;
+  font-size: 1.2em;
+  content: "• ";
+}
+
+.experienceplus {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 15pt;
+    color: #445368;
+}
+
+.experiencedata {
+    display: inline-flex;
+    gap: 1rem;
+    width: 100%;
+    margin: 1rem auto 15rem auto;
+    justify-content: center;
+}
+
+.experiencedata > div {
+    background-color: #1D293D;
+    border-radius: 30px;
+    border: 1px solid #1A253B;
+    padding: 0.5rem 1rem;
+}
+
+.experiencedata > div > p {
+    font-size: 12pt;
+    color: #6A7789;
+    text-align: center;
+}
+
+.contactcontainer {
+    display: inline-flex;
+    gap: 2rem;
+    width: 100%;
+    margin: 4rem auto 0 auto;
+    padding: 0 5rem;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.namailcontainer {
+    display: inline-flex;
+    gap: 2rem;
+}
+
+.opento {
+    font-size: 13pt;
+    color: #445468;
+    width: 20vw;
+    margin-bottom: 2rem;
+}
+
+.contactscontainer {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+    width: 100%
+}
+
+.contactscontainer > div {
+    background-color: #151F32;
+    border-radius: 10px;
+    border: 2px solid #202B40;
+    padding: 1rem 2rem;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contitle {
+    font-size: 12pt;
+    color: #798087;
+}
+
+.conuser {
+    font-size: 11pt;
+    color: #44546A;
+    margin-top: 0.25rem;
+}
+
+.namailcontainer > div > input {
+    margin-top: 0.5rem;
+    background-color: #1D293D;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    color: #606C80;
+    font-size: 11pt;
+    font-family: Inter, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.namailcontainer > div > input::placeholder {
+    color: #565D67;
+    font-size: 11pt;
+    font-family: Inter, sans-serif;
+}
+
+.message {
+    background-color: #1D293D;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    color: #606C80;
+    font-size: 11pt;
+    font-family: Inter, sans-serif;
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 70px;
+}
+
+.message::placeholder {
+    color: #565D67;
+    font-size: 11pt;
+    font-family: Inter, sans-serif;
+}
+
+.messagetitle {
+    font-size: 12pt;
+    color: #798087;
+    margin-top: 2rem;
+}
+
+.sendmessage {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #5039F7, #7F22FE);
+    padding: 0.5rem 2rem;
+    gap: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.sendmessage::active {
+    opacity: 0.8;
+    transition: background-image 0.3s ease;
+}
+
+.sendmessage > p {
+    color: #B99FFC;
+    font-size: 10pt;
 }

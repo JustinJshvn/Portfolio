@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Joshevano</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/JJ.ico">
 </head>
 <body>
     <header>
@@ -141,14 +142,14 @@
         </div>
     </section>
     <section id="skills">
-        <h3>EXPERTISE</h3>
-        <h2>Skills & Technologies</h2>
-        <p>A comprehensive toolkit for building innovative, scalable solutions</p>
-        <div>
+        <h3 class="subtitle">EXPERTISE</h3>
+        <h2 class="title">Skills & Technologies</h2>
+        <p class="description">A comprehensive toolkit for building innovative, scalable solutions</p>
+        <div class="skills">
             <div>
                 <img src="images/codeskill.png" alt="Code Skill">
                 <p>Programming</p>
-                <ul>
+                <ul class="programming">
                     <li>Python</li>
                     <li>JavaScript</li>
                     <li>React Native</li>
@@ -159,7 +160,7 @@
             <div>
                 <img src="images/design.png" alt="Design Skill">
                 <p>Design</p>
-                <ul>
+                <ul class="design">
                     <li>Figma</li>
                     <li>Tailwind CSS</li>
                     <li>UI/UX Design</li>
@@ -169,7 +170,7 @@
             <div>
                 <img src="images/system.png" alt="System Skill">
                 <p>Systems</p>
-                <ul>
+                <ul class="system">
                     <li>AWS</li>
                     <li>PostgreSQL</li>
                     <li>n8n</li>
@@ -178,8 +179,8 @@
                 </ul>
             </div>
         </div>
-        <p>Also experienced with</p>
-        <div>
+        <p class="experienceplus">Also experienced with</p>
+        <div class="experiencedata">
             <div>
                 <p>Docker</p>
             </div>
@@ -207,44 +208,52 @@
         </div>
     </section>
     <section id="contact">
-        <h3>LET'S CONNECT</h3>
-        <h2>Get in Touch</h2>
-        <p>Have a project in mind? Let's build something amazing together.</p>
-        <div>
+        <h3 class="subtitle">LET'S CONNECT</h3>
+        <h2 class="title">Get in Touch</h2>
+        <p class="description">Have a project in mind? Let's build something amazing together.</p>
+        <div class="contactcontainer">
             <div>
-                <div>
+                <div class="namailcontainer">
                     <div>
-                        <p>Name</p>
-                        <input type="text" placeholder="Your Name">
+                        <p class="contitle">Name</p>
+                        <input type="text" placeholder="Your name">
                     </div>
                     <div>
-                        <p>Email</p>
+                        <p class="contitle">Email</p>
                         <input type="text" placeholder="your@email.com">
                     </div>
                 </div>
-                <p>Message</p>
-                <input type="text" placeholder="Tell me about your project...">
-            </div>
-            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
-            <div>
-                <img src="images/github.png" alt="GitHub">
-                <div>
-                    <p>GitHub</p>
-                    <p>@justinjshvn</p>
-                </div>
+                <p class="messagetitle">Message</p>
+                <input class="message" type="text" placeholder="Tell me about your project...">
+                <button class="sendmessage">
+                    <p>Send Message</p>
+                    <img src="images/send.png" alt="Send Icon">
+                </button>
             </div>
             <div>
-                <img src="images/linkedin.png" alt="LinkedIn">
-                <div>
-                    <p>LinkedIn</p>
-                    <p>Justin Joshevano</p>
-                </div>
-            </div>
-            <div>
-                <img src="images/email.png" alt="Email">
-                <div>
-                    <p>Email</p>
-                    <p>justin.joshevano@gmail.com</p>
+                <p class="opento">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                <div class="contactscontainer">
+                    <div>
+                        <img src="images/github.png" alt="GitHub">
+                        <div>
+                            <p class="contitle">GitHub</p>
+                            <p class="conuser">@justinjshvn</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/linkedin.png" alt="LinkedIn">
+                        <div>
+                            <p class="contitle">LinkedIn</p>
+                            <p class="conuser">Justin Joshevano</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="images/email.png" alt="Email">
+                        <div>
+                            <p class="contitle">Email</p>
+                            <p class="conuser">justin.joshevano@gmail.com</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
